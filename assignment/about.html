@@ -1,11 +1,150 @@
-<!DOCTYPE html>
-<html lang="en">
+
+    <!DOCTYPE html>
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
+    <title>Lịch Trình Một Tuần</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+html{
+    font-family: serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar li:hover {
+    background-color: #555;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 10px 15px;
+    color: white;
+}
+
+.dropdown-menu li:hover {
+    background-color: #666;
+}
+a{
+    color: #f4f4f4;
+}
+    </style>
+    <nav class="navbar">
+        <ul>
+            <li>Trang chủ</li>
+            <li class="dropdown">Dịch vụ
+                <ul class="dropdown-menu">
+                    <li><a href="about.html" target="_blank">Xem giờ</a></li>
+                    <li><a href="details2.html" target="_blank">Tìm Sân</a></li>
+                    <li><a href="details1.html" target="_blank">Thuê Sân</a></li>
+                    <li><a href="http://127.0.0.1:5500/assignment/assignment1.html">Trang chủ</a></li>
+                </ul>
+            </li>
+            <li>Giới thiệu</li>
+            <li>Liên hệ</li>
+        </ul>
+    </nav>
 </head>
 <body>
-    <h1>Hello</h1>
+
+<h2>Lịch Trình Một Tuần</h2>
+<table>
+    <tr>
+        <th>Ngày</th>
+        <th>Hoạt Động</th>
+    </tr>
+    <tr>
+        <td>Thứ Hai</td>
+        <td>8:00am - 22:00pm</td>
+    </tr>
+    <tr>
+        <td>Thứ Ba</td>
+        <td>8:00am - 22:00pm</td>
+    </tr>
+    <tr>
+        <td>Thứ Tư</td>
+        <td>8:00am - 22:00pm</td>
+    </tr>
+    <tr>
+        <td>Thứ Năm</td>
+        <td>8:00am - 22:00pm</td>
+    </tr>
+    <tr>
+        <td>Thứ Sáu</td>
+        <td>8:00am - 22:00pm</td>
+    </tr>
+    <tr>
+        <td>Thứ Bảy</td>
+        <td>7:00am - 23:00pm</td>
+    </tr>
+    <tr>
+        <td>Chủ Nhật</td>
+        <td>7:00am - 23:00pm</td>
+    </tr>
+    <tr>
+        <td>Lễ, Tết</td>
+        <td>Nghỉ</td>
+    </tr>
+</table>
+
 </body>
 </html>

@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>details1</title>
+    <title>Thuê sân banh</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <style>
+        select{
+            padding: 5px;
+            margin-top: 10px;    /* Khoảng cách trên */
+            margin-right: 15px;  /* Khoảng cách bên phải */
+            margin-bottom: 10px; /* Khoảng cách dưới */
+            margin-left: 15px;   /* Khoảng cách bên trái */
+            border-radius: 10px;
+            border-style: solid;
+            border-color: rgb(66, 52, 50);
+            border-width: 3px;
+}
+       
+        
+        
+    </style>
+    <h1>Thuê sân Banh</h1>
+    <label for="name">Tên sân</label>
+    <select name="name" id="name">
+        <option value="chọn">Chọn</option>
+        <option value="chaolua">Chảo lửa Mini Scsc</option>
+        <option value="caudo">Bình Lợi Trung</option>
+        <option value="carodong">Cá Rô Đồng</option>
+        <option value="Alaska">Alaska Bình Quới</option>
+        <option value="phanchutrinh">Phan Chu Trinh</option>
+    </select>
+
+    <label for="name">Giờ</label>
+    <select name="name" id="name">
+        <option value="chọn">Chọn</option>
+        <option value="chaolua">9:00h - 11:00h</option>
+        <option value="caudo">17:00h - 19:00h</option>
+        <option value="carodong">8:00h - 10:00h</option>
+        <option value="Alaska">19:00h - 21:00h</option>
+        <option value="phanchutrinh">16:00h - 18:00h</option>
+    </select>
+    <label for="123">Ngày</label>
+    <input type="text" id="123"> 
+    <h1>Dịch vụ sân</h1>
+    <label for="1">Cỏ Nhân Tạo</label>
+    <input type="checkbox" id="1">
+    <br>
+    <br>
+    <label for="1">Cỏ Tự Nhiên</label>
+    <input type="checkbox" id="1">
+    <br>
+    <br>
+    <label for="1">Miễn Phí Nước Uống</label>
+    <input type="checkbox" id="1">
+    <br>
+    <br>
+    <label for="1">Sân 7 Người</label>
+    <input type="checkbox" id="1">
+    <br>
+    <br>
+    <label for="1">Sân 11 Người</label>
+    <input type="checkbox" id="1">
+    <br>
+    <br>
+    <label for="1">Sân 5 Người</label>
+    <input type="checkbox" id="1">
+    <br>
+    <br>
+    <script>
+        function showalert(){
+            window.alert("Chi Phí Sân là 500.000 VND")
+        }
+    </script>
+    <button onclick="showalert()">Đặt Sân</button>
+    <br>
+    <br>
+    <label for="1">Nhập Chi Phí</label>
+    <input type="text" id="1" placeholder="Nhập">
+    <br>
+    <br>
+    <script>
+        function showAlert(){
+            window.alert("Sân sẽ được giao vào ngày bạn đã nhập")
+        }
+    </script>
+    <button onclick="showAlert()">Trả Tiền</button>
+    <footer>
+        <p>Liên hệ: 0906923981</p>
+        <p>Liên hệ: 0906923981</p>
+    </footer>
 </body>
 </html>
